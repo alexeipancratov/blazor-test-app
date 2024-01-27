@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor-demo-app", "blazor-demo-app\blazor-demo-app.csproj", "{38A34594-7159-42D2-B978-21E64D9656B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Blazor", "BethanysPieShopHRM.Blazor\BethanysPieShopHRM.Blazor.csproj", "{38A34594-7159-42D2-B978-21E64D9656B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Shared", "BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj", "{64C39411-F9D8-4CA8-84E1-6E9F932057AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{38A34594-7159-42D2-B978-21E64D9656B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38A34594-7159-42D2-B978-21E64D9656B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38A34594-7159-42D2-B978-21E64D9656B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C39411-F9D8-4CA8-84E1-6E9F932057AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C39411-F9D8-4CA8-84E1-6E9F932057AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C39411-F9D8-4CA8-84E1-6E9F932057AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C39411-F9D8-4CA8-84E1-6E9F932057AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

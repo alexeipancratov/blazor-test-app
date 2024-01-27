@@ -4,6 +4,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>BethanysPieShopHRM.Blazor</RootNamespace>
     </PropertyGroup>
     
     <PropertyGroup>
@@ -13,6 +14,10 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.24"/>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.24" PrivateAssets="all"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj" />
     </ItemGroup>
 
 </Project>
